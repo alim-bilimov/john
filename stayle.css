@@ -1,0 +1,190 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+a{
+    text-decoration: none;
+
+}
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+/* HEADER */
+#header{
+    padding: 30px 0;
+}
+.header{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+  
+}
+ 
+.header a{
+    margin: 0 20px;
+    color: #000;
+    color: #000;
+    text-align: right;
+    font-size: 20px;
+    font-weight: 500;
+}
+/* HEADER */
+/* HERO */
+#hero{
+    padding: 150px 0;
+}
+.hero{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.hero-left h1{
+    color: var(--Dark-Color, #21243D);
+font-size: 50px;
+font-weight: 700;
+line-height: 60px; /* 136.364% */
+}
+.hero-left p{
+    color: var(--Dark-Color, #21243D);
+font-size: 16px;
+font-weight: 400;
+margin: 20px 0;
+}
+.hero-left button{
+    width: 208px;
+height: 47px;
+border-radius: 2px;
+background: var(--Primary, #FF6464);
+color: #FFF;
+font-size: 20px;
+font-weight: 500;
+border: none;
+}
+/* HERO */
+/* POST */
+#post{
+    background: #EDF7FA;
+}
+/* .container-2{
+    width: 70%;
+    margin: 0 auto;
+} */
+.post-1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+.post-1 h1{ color: var(--Dark-Color, #21243D);
+/* font-family: Heebo; */
+font-size: 22px;
+font-weight: 400;
+
+}
+.post-1 span{
+    color: var(--Secondry, #00A8CC);
+text-align: right;
+font-size: 16px;
+font-weight: 400;
+}
+.block{
+    width: 508px;
+height: 300px;
+border-radius: 4px;
+background: #FFF;
+box-shadow: 0px 4px 10px 0px rgba(187, 225, 250, 0.25);
+padding: 30px;
+/* margin-left: 100px; */
+}
+.block h1{
+    color: var(--Dark-Color, #21243D);
+font-size: 30px;
+font-weight: 700;
+}
+.block span{
+    color: var(--Dark-Color, #21243D);
+font-size: 22px;
+font-weight: 400;
+margin: 30px 0;
+
+}
+.block p{
+    color: var(--Dark-Color, #21243D);
+font-size: 19px;
+font-weight: 400;
+line-height: 30px;
+/* margin: ; */
+}
+.blocks{
+    display: flex;
+  
+}
+.blocks div{
+    width: 2px;
+height: 20px;
+background-color: black;
+margin: 0 20px;
+margin-top: 30px;
+
+}
+.post-2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/* POST */
+/* WORK */
+.world h3{
+    margin-top: 20px;
+    color: var(--Dark-Color, #21243D);
+font-size: 22px;
+font-weight: 400;
+}
+.works{
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0;
+}
+.worket{
+    display: flex;
+    margin: 20px 0;
+
+}
+.work-text{
+    margin-left: 20px;
+}
+.work-text h1{
+    color: var(--Dark-Color, #21243D);
+font-size: 30px;
+font-weight: 700;
+}
+.work-text p{
+    color: var(--Dark-Color, #21243D);
+font-size: 16px;
+font-weight: 400;
+margin-top: 5px;
+}
+.loro button{
+    width: 62px;
+    height: 25px;
+    border-radius: 16px;
+background: #142850;
+color: #FFF;
+font-size: 18px;
+font-weight: 900;
+margin: 15px 0;
+}
+.loro span{
+    color: var(--Light, #8695A4);
+font-size: 20px;
+font-weight: 400;
+
+}
+/* WORK */
+.footer{
+    display: flex;
+    justify-content: center;
+    padding: 50px 0;
+}

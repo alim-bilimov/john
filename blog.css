@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+a{
+text-decoration: none;
+}
+.container{
+    width: 90%;
+
+    margin: 0 auto;
+}
+/* HEADER */
+.header{
+    display: flex;
+    justify-content: flex-end ;
+    padding: 30px;
+
+}
+.header a{
+    margin: 0 20px;
+}
+.blog{
+    color: var(--Primary, #FF6464);
+text-align: right;
+font-size: 20px;
+font-weight: 500;
+}
+.works{
+    color: #000;
+text-align: right;
+font-size: 20px;
+font-weight: 600;
+}
+/* HEADER */
+/* HERO */
+.hero{
+    margin-left: 150px;
+}
+.blog-h1{
+    color: var(--Dark-Color, #21243D);
+font-size: 44px;
+font-weight: 700;
+margin-top: 20px;
+}
+.dolor h1{
+    color: var(--Dark-Color, #21243D);
+font-size: 30px;
+font-weight: 500;
+margin-top: 10px;
+}
+.dolor p{
+    color: var(--Dark-Color, #21243D);
+font-size: 16px;
+font-weight: 400;
+line-height: normal;
+margin-top: 15px;
+}
+.born{
+    display: flex;
+}
+.born div{
+    width: 20px;
+  
+}
+.dolor{
+    margin: 70px 0;
+}
+.span-1{
+    color: var(--Dark-Color, #21243D);
+font-size: 20px;
+font-weight: 400;
+}
+.span-2{
+    color: var(--Light, #8695A4);
+    font-size: 20px;
+    font-weight: 400;
+}
+/* HERO */
+/* FOOTER */
+.footer{
+    display: flex;
+    justify-content: center;
+}
+
+/* FOOTER */
